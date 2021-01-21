@@ -1,0 +1,31 @@
+In the project the database is named 'hms' it has 3 tables named below
+ +---------------+
+| Tables_in_hms |
++---------------+
+| customer      |
+| login         |
+| room          |
++---------------+
+each table consist of following rows:
+
+customer:
++----------+--------+--------+--------+---------+------+--------+---------+
+| id       | number | name   | gender | country | room | status | deposit |
++----------+--------+--------+--------+---------+------+--------+---------+
+
+login:
++----------+----------+
+| username | password |
++----------+----------+
+here you need to insert ur username and password which will be verified while using your login button in the Application
+
+room:
++------+-----------+--------+-------+------------+
+| room | available | status | price | type       |
++------+-----------+--------+-------+------------+
+
+
+
+
+  
+
